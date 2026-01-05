@@ -24,3 +24,7 @@ sys.path.append(".")
 
 # %% ../nbs/01_main.ipynb 8
 from components.module1 import *
+
+# %% ../nbs/01_main.ipynb 13
+if __name__ == "__main__":
+    serve()
