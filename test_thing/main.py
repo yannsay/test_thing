@@ -8,7 +8,11 @@ __all__ = ['app', 'home']
 # %% ../nbs/01_main.ipynb 4
 from fasthtml.common import FastHTML, serve
 
+# %% ../nbs/01_main.ipynb 4
+from fasthtml.common import FastHTML, serve
+
 # %% ../nbs/01_main.ipynb 5
+#| echo: true
 app = FastHTML()
 
 # %% ../nbs/01_main.ipynb 6
