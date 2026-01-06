@@ -5,27 +5,27 @@
 # %% auto 0
 __all__ = ['app', 'home']
 
-# %% ../nbs/01_main.ipynb 3
+# %% ../nbs/01_main.ipynb 4
 from fasthtml.common import FastHTML, serve
 
-# %% ../nbs/01_main.ipynb 4
+# %% ../nbs/01_main.ipynb 5
 app = FastHTML()
 
-# %% ../nbs/01_main.ipynb 5
+# %% ../nbs/01_main.ipynb 6
 @app.get("/")
 def home():
     return f"<h1>Hello, World ! {papaya()}</h1>"
 
-# %% ../nbs/01_main.ipynb 6
+# %% ../nbs/01_main.ipynb 7
 import sys
 
-# %% ../nbs/01_main.ipynb 8
+# %% ../nbs/01_main.ipynb 9
 sys.path.append(".")
 
 
-# %% ../nbs/01_main.ipynb 10
+# %% ../nbs/01_main.ipynb 11
 from components.module1 import *
 
-# %% ../nbs/01_main.ipynb 15
+# %% ../nbs/01_main.ipynb 16
 if __name__ == "__main__":
     serve()
