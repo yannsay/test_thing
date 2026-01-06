@@ -8,11 +8,7 @@ __all__ = ['app', 'home']
 # %% ../nbs/01_main.ipynb 4
 from fasthtml.common import FastHTML, serve
 
-# %% ../nbs/01_main.ipynb 4
-from fasthtml.common import FastHTML, serve
-
 # %% ../nbs/01_main.ipynb 5
-#| echo: true
 app = FastHTML()
 
 # %% ../nbs/01_main.ipynb 6
@@ -23,13 +19,13 @@ def home():
 # %% ../nbs/01_main.ipynb 7
 import sys
 
-# %% ../nbs/01_main.ipynb 9
+# %% ../nbs/01_main.ipynb 8
 sys.path.append(".")
 
 
-# %% ../nbs/01_main.ipynb 11
+# %% ../nbs/01_main.ipynb 10
 from components.module1 import *
 
-# %% ../nbs/01_main.ipynb 16
+# %% ../nbs/01_main.ipynb 15
 if __name__ == "__main__":
     serve()
