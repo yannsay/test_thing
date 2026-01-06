@@ -65,3 +65,9 @@ Fill me in please! Don’t forget code examples:
 ```
 
     2
+
+``` python
+print("hello")
+```
+
+    hello
