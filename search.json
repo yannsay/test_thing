@@ -1,0 +1,103 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "def foo(): pass",
+    "crumbs": [
+      "core"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "test_thing",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "test_thing"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "test_thing",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall test_thing in Development mode\n# make sure test_thing package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to test_thing\n$ nbdev_prepare",
+    "crumbs": [
+      "test_thing"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "test_thing",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/yannsay/test_thing.git\nor from conda\n$ conda install -c yannsay test_thing\nor from pypi\n$ pip install test_thing\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "test_thing"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "test_thing",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2\n\n\n\nprint(\"hello\")\n\nhello",
+    "crumbs": [
+      "test_thing"
+    ]
+  },
+  {
+    "objectID": "components/module1.html",
+    "href": "components/module1.html",
+    "title": "module 1",
+    "section": "",
+    "text": "def papaya(): return \"papaya\"\n\n\npapaya()\n\n'papaya'",
+    "crumbs": [
+      "components",
+      "module 1"
+    ]
+  },
+  {
+    "objectID": "main.html",
+    "href": "main.html",
+    "title": "main",
+    "section": "",
+    "text": "Exported source\nfrom fasthtml.common import FastHTML, serve\n\n\n\n\nExported source\napp = FastHTML()\n\n\n\n@app.get(\"/\")\ndef home():\n    return f\"&lt;h1&gt;Hello, World ! {papaya()}&lt;/h1&gt;\"\n\n\nimport sys\n\n\nsys.path.append(\".\")\n\n\nsys.path.append(\"../test_thing/\")\n\n\nfrom components.module1 import *",
+    "crumbs": [
+      "main"
+    ]
+  },
+  {
+    "objectID": "main.html#my-app",
+    "href": "main.html#my-app",
+    "title": "main",
+    "section": "",
+    "text": "Exported source\nfrom fasthtml.common import FastHTML, serve\n\n\n\n\nExported source\napp = FastHTML()\n\n\n\n@app.get(\"/\")\ndef home():\n    return f\"&lt;h1&gt;Hello, World ! {papaya()}&lt;/h1&gt;\"\n\n\nimport sys\n\n\nsys.path.append(\".\")\n\n\nsys.path.append(\"../test_thing/\")\n\n\nfrom components.module1 import *",
+    "crumbs": [
+      "main"
+    ]
+  },
+  {
+    "objectID": "main.html#notebook-test",
+    "href": "main.html#notebook-test",
+    "title": "main",
+    "section": "Notebook test",
+    "text": "Notebook test\n\nfrom fasthtml.jupyter import *\n\n\nsrv = JupyUvi(app=app)",
+    "crumbs": [
+      "main"
+    ]
+  },
+  {
+    "objectID": "main.html#run-the-app",
+    "href": "main.html#run-the-app",
+    "title": "main",
+    "section": "Run the app",
+    "text": "Run the app\n\nif __name__ == \"__main__\":\n    serve()",
+    "crumbs": [
+      "main"
+    ]
+  }
+]

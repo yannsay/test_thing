@@ -1,0 +1,1 @@
+Sitemap: https://yannsay.github.io/test_thing/sitemap.xml
